@@ -28,7 +28,6 @@ public class TestOP  extends OpMode {
         telemetry.addData("frontRight", drivetrain.getMotors().get(1).getPower());
         telemetry.addData("rearLeft", drivetrain.getMotors().get(2).getPower());
         telemetry.addData("rearRight", drivetrain.getMotors().get(3).getPower());
-
         telemetry.addData("Slow mode", slow_input);
         telemetry.update();
     }
